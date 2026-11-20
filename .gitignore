@@ -1,0 +1,35 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated databases, runtime storage, and indexes
+storage/
+
+# Conversation dumps
+whole_conversation.md
+export_conversation_md.py
+
+# Cache
+.cache/
+.pytest_cache/
